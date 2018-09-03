@@ -1,0 +1,5 @@
+local/
+data/err/
+data/dataset/.ipynb_checkpoints/
+.idea/
+*.ipynb
