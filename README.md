@@ -49,7 +49,7 @@ Commands executed in ```./run.sh```:
 
 1. Train on the training set and evaluate on the dev set to obtain early stopping epoch
 ```python3 -u train_es.py```
-2. Train on the concatenated (train + dev) set and evaluate on the test set until (1) max epochs limit exceeded or (2) the limit specified by early stopping after executing train_es.py
+2. Train on the concatenated (train + dev) set and evaluate on the test set until either the (1) max epochs or (2) the early stopping limit is exceeded after executing train_es.py
 ```python3 -u train_eval.py```
 
 ## Notes
