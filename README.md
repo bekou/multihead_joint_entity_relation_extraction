@@ -17,17 +17,17 @@ Given a sequence of tokens (i.e., sentence), (i) give the entity tag of each wor
 ```
 0	Marc		B-PER		['N']					[0]		
 1	Smith		I-PER 		['lives_in','works_for']		[5,11]
-2 	lives		O		['N']					[0]
-3	in		O		['N']					[0]
-4	New		B-LOC		['N']					[0]
-5	Orleans		I-LOC		['N']					[0] 
-6	and		O		['N']					[0]
-7	is		O		['N']					[0]
-8	hired		O		['N']					[0]
-9	by		O		['N']					[0]
-10	the		O		['N']					[0]
-11  government		B-ORG		['N']					[0]
-12	.		O		['N']					[0]
+2 	lives		O		['N']					[2]
+3	in		O		['N']					[3]
+4	New		B-LOC		['N']					[4]
+5	Orleans		I-LOC		['N']					[5] 
+6	and		O		['N']					[6]
+7	is		O		['N']					[7]
+8	hired		O		['N']					[8]
+9	by		O		['N']					[9]
+10	the		O		['N']					[10]
+11  government		B-ORG		['N']					[11]
+12	.		O		['N']					[12]
 ```
 
 ## Configuration
