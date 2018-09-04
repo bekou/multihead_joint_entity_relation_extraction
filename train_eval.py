@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     config.train_id_docs.extend(config.dev_id_docs)
 
-
+    
     train_data = utils.HeadData(config.train_id_docs, np.arange(len(config.train_id_docs)))
     test_data = utils.HeadData(config.test_id_docs, np.arange(len(config.test_id_docs)))
 

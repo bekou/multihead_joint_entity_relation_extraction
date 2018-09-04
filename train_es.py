@@ -19,7 +19,7 @@ if __name__ == "__main__":
     checkInputs()
 
     config=build_data(sys.argv[1])
-    #config.train_id_docs=config.train_id_docs[0:10]
+    
 
     train_data = utils.HeadData(config.train_id_docs, np.arange(len(config.train_id_docs)))
     dev_data = utils.HeadData(config.dev_id_docs, np.arange(len(config.dev_id_docs)))

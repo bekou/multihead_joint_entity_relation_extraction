@@ -48,7 +48,7 @@ class model:
             print('loss: %f ' % (loss))
 
             if self.config.evaluation_method == "relaxed":
-                evaluator.printInfoMacro()
+                evaluator.computeInfoMacro()
             else:
                 evaluator.printInfo()
 
@@ -73,8 +73,11 @@ class model:
                 evaluator.add(predicted_ner, actual_ner, predicted_rel, actual_rel)
 
         if self.config.evaluation_method == "relaxed":
-            evaluator.printInfoMacro()
-            return evaluator.getMacroF1scores3Classes()[2] #or evaluator.getMacroF1scores()[2] if we want macro f1 optimization over all classes
+            evaluator.computeInfoMacro(printScores=True)
+            if "other" in [x.lower() for x in self.config.dataset_set_ec_tags]: # if other class exists report score without "Other" class, see previous work on the CoNLL04
+                return evaluator.getMacroF1scoresNoOtherClass()[2]
+            else:
+                return evaluator.getMacroF1scores()[2]
 
         else:
             evaluator.printInfo()

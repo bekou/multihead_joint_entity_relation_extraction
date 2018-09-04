@@ -3,3 +3,6 @@ data/err/
 data/dataset/.ipynb_checkpoints/
 .idea/
 *.ipynb
+*.pyc
+*.pkl
+data/dataset/vecs.lc.over100freq.txt
