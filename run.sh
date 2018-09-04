@@ -5,7 +5,7 @@ output_dir='./logs/'
 config_file='./configs/bio_config'
 
 # unzip the embeddings file 
-unzip data/dataset/vecs.lc.over100freq.zip
+unzip data/dataset/vecs.lc.over100freq.zip -d data/dataset/ 
 
 mkdir -p $output_dir
 
