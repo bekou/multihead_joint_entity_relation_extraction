@@ -3,6 +3,8 @@
 timestamp=`date "+%d.%m.%Y_%H.%M.%S"`
 output_dir='./logs/'
 config_file='./configs/bio_config'
+
+# unzip the embeddings file 
 unzip data/dataset/vecs.lc.over100freq.zip
 
 mkdir -p $output_dir
