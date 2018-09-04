@@ -9,6 +9,7 @@ Implementation of the papers
 * Anaconda 5.0.1
 * Numpy 1.14.1
 * Tensorflow 1.5.0
+* PrettyTable 0.7.2
 
 ## Task
 Given a sequence of tokens (i.e., sentence), (i) give the entity tag of each word (e.g., NER) and (ii) the relations between the entities in the sentence. The following example indicates the accepted input format of our multi-head selection model:
