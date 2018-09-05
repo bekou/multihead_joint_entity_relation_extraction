@@ -25,7 +25,6 @@ if __name__ == "__main__":
     dev_data = utils.HeadData(config.dev_id_docs, np.arange(len(config.dev_id_docs)))
     test_data = utils.HeadData(config.test_id_docs, np.arange(len(config.test_id_docs)))
 
-
     tf.reset_default_graph()
     tf.set_random_seed(1)
 

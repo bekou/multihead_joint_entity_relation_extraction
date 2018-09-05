@@ -22,7 +22,7 @@ class headIdDoc:
         self.joint_ids = []
 
     def append(self, token_id, token, BIO, relations, heads):
-        self.tokens.append(token)
+        self.tokens.append(str(token))
         self.token_ids.append(token_id)
         self.BIOs.append(BIO)
         self.relations.append(relations)
