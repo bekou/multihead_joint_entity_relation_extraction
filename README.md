@@ -8,6 +8,7 @@ Implementation of the papers
 * Ubuntu 16.04
 * Anaconda 5.0.1
 * Numpy 1.14.1
+* Gensim 3.4.0
 * Tensorflow 1.5.0
 * PrettyTable 0.7.2
 
