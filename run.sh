@@ -2,7 +2,7 @@
 
 timestamp=`date "+%d.%m.%Y_%H.%M.%S"`
 output_dir='./logs/'
-config_file='./configs/bio_config'
+config_file='./configs/CoNLL04/bio_config'
 
 # unzip the embeddings file 
 unzip data/dataset/vecs.lc.over100freq.zip -d data/dataset/

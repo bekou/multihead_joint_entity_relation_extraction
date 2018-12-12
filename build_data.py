@@ -86,7 +86,7 @@ class build_data():
 
         # evaluation
         self.evaluation_method =config_file.getProperty("evaluation_method")
-        self.root_node=bool(config_file.getProperty("root_node"))
+        self.root_node=utils.strToBool(config_file.getProperty("root_node"))
 
         self.shuffle=False
         self.batchsize=1

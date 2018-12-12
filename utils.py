@@ -256,6 +256,7 @@ def printParameters(config):
     t.add_row(['Hidden size char ', config.hidden_size_char])
     t.add_row(['Label embeddings size ', config.label_embeddings_size])
     t.add_row(['Alpha ', config.alpha])
+    t.add_row(['Root node ', config.root_node])
 
     #evaluation
     t.add_row(['Evaluation method ', config.evaluation_method])
