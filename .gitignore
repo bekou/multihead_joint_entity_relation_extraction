@@ -9,4 +9,9 @@ data/dataset/vecs.lc.over100freq.txt
 logs/
 data/ace04/
 configs/bio_config_ace04
-data/drec/
+
+data/drec/embeddings_matrix.txt
+data/drec/drec.zip
+data/drec/dev.tsv
+data/drec/test.tsv
+data/drec/train.tsv
