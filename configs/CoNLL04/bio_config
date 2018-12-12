@@ -1,10 +1,10 @@
 # pretrained embeddings
-filename_embeddings     =data/dataset/vecs.lc.over100freq.txt
+filename_embeddings     =data/CoNLL04/vecs.lc.over100freq.txt
 
 # dataset
-filename_dev            = "data/dataset/dev.txt"
-filename_test           = "data/dataset/test.txt"
-filename_train          = "data/dataset/train.txt"
+filename_dev            = "data/CoNLL04/dev.txt"
+filename_test           = "data/CoNLL04/test.txt"
+filename_train          = "data/CoNLL04/train.txt"
 
 # training
 nepochs                 = 150

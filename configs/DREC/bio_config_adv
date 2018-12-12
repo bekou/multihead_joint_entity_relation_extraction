@@ -1,10 +1,10 @@
 # pretrained embeddings
-filename_embeddings     =data/drec/embeddings_matrix.txt
+filename_embeddings     =data/DREC/embeddings_matrix.txt
 
 # dataset
-filename_dev            = "data/drec/dev.tsv"
-filename_test           = "data/drec/test.tsv"
-filename_train          = "data/drec/train.tsv"
+filename_dev            = "data/DREC/dev.tsv"
+filename_test           = "data/DREC/test.tsv"
+filename_train          = "data/DREC/train.tsv"
 
 # training
 nepochs                 = 60
