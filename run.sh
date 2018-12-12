@@ -5,7 +5,7 @@ output_dir='./logs/'
 config_file='./configs/CoNLL04/bio_config'
 
 # unzip the embeddings file 
-unzip data/dataset/vecs.lc.over100freq.zip -d data/dataset/
+unzip data/CoNLL04/vecs.lc.over100freq.zip -d data/CoNLL04/
 
 mkdir -p $output_dir
 
