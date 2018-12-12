@@ -9,3 +9,4 @@ data/dataset/vecs.lc.over100freq.txt
 logs/
 data/ace04/
 configs/bio_config_ace04
+data/drec/
