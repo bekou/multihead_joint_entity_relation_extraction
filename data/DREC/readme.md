@@ -19,3 +19,18 @@ If you use the DREC dataset please cite:
   url = 	"http://aclweb.org/anthology/E17-2044"
 }
 ```
+and 
+```
+@article{BEKOULIS2018100,
+title = "An attentive neural architecture for joint segmentation and parsing and its application to real estate ads",
+journal = "Expert Systems with Applications",
+volume = "102",
+pages = "100 - 112",
+year = "2018",
+issn = "0957-4174",
+doi = "https://doi.org/10.1016/j.eswa.2018.02.031",
+url = "http://www.sciencedirect.com/science/article/pii/S0957417418301192",
+author = "Giannis Bekoulis and Johannes Deleu and Thomas Demeester and Chris Develder"
+}
+```
+
